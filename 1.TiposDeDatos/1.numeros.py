@@ -1,27 +1,21 @@
 
-"""Los siguientes valores que tienen un nùmero fijo se 
-consideran constantes y se encriben en mayùsculas"""
 
-# Enteros
-edad = 20
-numero_de_casa = 4593
+# NUMEROS 
 
-# Float
-harina_precio = 204.5
-yerba_precio = 99.87
+edad = 20   #-> Entero
+CASA = 4593  # -> Entero guardado en una Constante
+precio_pan = 204.5 # -> Float
 
-# Elevado a la potencia **
-g = 4
-resultado = g ** 4
-print(resultado)
-
-print(((harina_precio + yerba_precio) + (edad*numero_de_casa)) / resultado)
+n_Imaginario = 2 + 2j # -> Imaginario
+print(n_Imaginario)
+print(2 ** 4) # Elevado a la potencia **
+print((14000 // precio_pan) + (edad*CASA)) # // Division sin decimales
 
 
 def calcular(num, elevar):
     """Function printing python version."""
     elev=num**elevar
-    #El método f-strings para contatenar cualquier cosa
+    #El método f-strings usa literales para contatenar
     texto = f"El numero {num} elevado a la {elevar} da como resultado: {elev}"
     print(texto)
 
