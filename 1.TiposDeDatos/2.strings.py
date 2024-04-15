@@ -32,7 +32,6 @@ print(saludo.capitalize())
 print(saludo.title())
 print(saludo.strip())
 print(saludo.strip().capitalize())
-
 print(saludo.split())
 print(saludo.split('o'))
 
